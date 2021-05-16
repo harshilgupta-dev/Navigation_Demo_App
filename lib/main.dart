@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Screen0(),
+      initialRoute: '/',
       routes: {
         '/': (context) => Screen0(),
         '/first': (context) => Screen1(),
